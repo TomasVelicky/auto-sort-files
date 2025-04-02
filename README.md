@@ -1,7 +1,7 @@
 # File Organizer Script
 
 ## Overview
-This Python script automatically organizes files located in the user's **Downloads** folder into target directories specified in an external JSON configuration file (`categories.json`). The script prioritizes file categorization by matching file name substrings first, and if no match is found, it falls back to matching the file extension.
+This Python script automatically organizes files and folders located in the user's **Downloads** folder into target directories specified in an external JSON configuration file (`categories.json`). The script prioritizes file categorization by matching file name substrings first, and if no match is found, it falls back to matching the file extension.
 
 ## Requirements
 - **Python 3.x** – The script is written in Python.

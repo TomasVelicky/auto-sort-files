@@ -17,3 +17,59 @@ This Python script automatically organizes files and folders located in the user
 3. Run the script with the following command:
    ```bash
    python file_organizer.py
+
+
+
+## 🔁 Automating the Script on Windows (Task Scheduler)
+
+To run the script automatically without manual execution, you can use **Task Scheduler** built into Windows.
+
+### 📌 Steps to Set Up:
+
+1. **Open Task Scheduler**  
+   Press `Windows + S`, search for **Task Scheduler**, and open it.
+
+2. **Create a New Task**  
+   - In the right panel, click on **Create Basic Task...**  
+   - Name it something like: `File Organizer`
+   - Click **Next**
+
+3. **Choose a Trigger**  
+   - Select **Daily** or **When I log on**  
+   - (You can also choose **One time** and combine it with advanced settings for interval-based repetition)
+
+4. **Set Start Time**  
+   - Choose the time you'd like the script to run automatically
+   - Click **Next**
+
+5. **Action: Start a Program**  
+   - Select **Start a program**
+   - Click **Next**
+
+6. **Set Program and Arguments**  
+   - In **Program/script**, enter the path to your Python executable, for example:  
+     ```
+     C:\Users\YourUsername\AppData\Local\Programs\Python\Python311\python.exe
+     ```
+   - In **Add arguments**, enter the path to your script in quotes:  
+     ```
+     "C:\Path\To\file_organizer.py"
+     ```
+   - Click **Next**
+
+7. **Finish the Task Setup**  
+   - Review the settings
+   - Click **Finish**
+
+### ✅ Optional: Advanced Settings for Repetition
+If you'd like the script to run every 10 minutes:
+
+1. Open the task you created → **Properties**
+2. Go to the **Triggers** tab → click **Edit**
+3. Check **Repeat task every** → set to `10 minutes`  
+   Set **for a duration of** → `Indefinitely`
+4. Click **OK**
+
+---
+
+Now your script will run automatically according to the schedule you configured, organizing your Downloads folder in the background with no need to open a terminal manually.

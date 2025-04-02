@@ -1,0 +1,98 @@
+{
+    "Projects": {
+      "extensions": [],
+      "name_contains": ["project", "projekt"],
+      "target_path": "Documents/Codes/Projekts/"
+    },
+    "Scripts": {
+      "extensions": [".sh", ".bat", ".ps1"],
+      "name_contains": ["script", "skript"],
+      "target_path": "Documents/Codes/Skripts/"
+    },
+    "C_Code": {
+      "extensions": [".c"],
+      "name_contains": [],
+      "target_path": "Documents/Codes/c/"
+    },
+    "CPP_Code": {
+      "extensions": [".cpp"],
+      "name_contains": [],
+      "target_path": "Documents/Codes/cpp/"
+    },
+    "Python_Code": {
+      "extensions": [".py"],
+      "name_contains": [],
+      "target_path": "Documents/Codes/py/"
+    },
+    "HTML_Code": {
+      "extensions": [".html", ".htm", ".js", ".css"],
+      "name_contains": [],
+      "target_path": "Documents/Codes/sites/"
+    },
+    "Other_Code": {
+      "extensions": [".java", ".cs", ".rb", ".php", ".css", ".ts", ".go", ".swift", ".kt"],
+      "name_contains": ["code", "source", "src"],
+      "target_path": "Documents/Codes/Other/"
+    },
+    "Work": {
+      "extensions": [],
+      "name_contains": ["work", "praca"],
+      "target_path": "Documents/Work/"
+    },
+    "School": {
+      "extensions": [],
+      "name_contains": ["school", "skola"],
+      "target_path": "Documents/School/"
+    },
+    "Fonts": {
+      "extensions": [".ttf", ".otf"],
+      "name_contains": ["font"],
+      "target_path": "Documents/Personalisations/Fonts/"
+    },
+    "Themes": {
+      "extensions": [],
+      "name_contains": ["theme"],
+      "target_path": "Documents/Personalisations/Themes/"
+    },
+    "Wallpapers": {
+      "extensions": [],
+      "name_contains": ["wallpaper", "wall"],
+      "target_path": "Documents/Personalisations/Wallpapers/"
+    },
+    "Icons": {
+      "extensions": [],
+      "name_contains": ["icon"],
+      "target_path": "Documents/Personalisations/Icons/"
+    },
+    "Profile_Pictures": {
+      "extensions": [],
+      "name_contains": ["avatar", "profil"],
+      "target_path": "Documents/Personalisations/"
+    },
+    "Installers": {
+      "extensions": [".exe", ".msi", ".zip", ".deb", ".rpm", ".tar", ".tar.gz", ".tar.xz"],
+      "name_contains": ["setup", "install"],
+      "target_path": "Downloads/Instalations/"
+    },
+    "Screenshots": {
+      "extensions": [],
+      "name_contains": ["screenshot"],
+      "target_path": "Pictures/Screenshots/"
+    },
+    "Music": {
+      "extensions": [".mp3", ".wav", ".flac"],
+      "name_contains": ["audio"],
+      "target_path": "Music/"
+    },
+    "Videos": {
+      "extensions": [".mp4", ".mkv", ".avi"],
+      "name_contains": ["video"],
+      "target_path": "Videos/"
+    },
+    "Pictures": {
+      "extensions": [".jpg", ".jpeg", ".png", ".gif", ".svg"],
+      "name_contains": ["image", "obrazok", "picture"],
+      "target_path": "Pictures/"
+    }
+  }
+  
